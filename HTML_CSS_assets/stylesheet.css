@@ -1,0 +1,85 @@
+html{
+    background-color: darkgrey;
+}
+
+
+div.container{
+    border: 1px solid red;
+    width: 780px;
+    min-height: 500px;
+    margin: 0 auto;
+font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+.container header{
+    min-height: 100px;
+}
+.nav {
+    text-align: right;
+    padding-right:1rem;
+}
+
+ div.nav a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 3px;
+    padding: 5px;
+}
+.top a {
+    text-transform: uppercase;
+    font-size: 10pt;
+
+div.nav span a:hover {
+    text-decoration: underline;
+}
+.nav span:after{
+content:" |";
+align-content:center;
+}
+ .nav span:last-of-type:after{
+ content:"";
+ }
+
+    .nav a img{
+    vertical-align: middle;
+}
+
+
+
+.middle {
+    background-image: url('uofu_medallion_rt.gif');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+
+}
+section.guts{
+min-height: 500px;
+    background-color: rgba(211,214,179,0.91);
+    border-radius: 20px;
+    margin: 1rem 1rem 5.5rem 1rem;
+    padding: 1rem;
+}
+.bottom a{
+    color: black;
+    text-transform: lowercase;
+    text-decoration: none;
+    padding: 3px;
+    font-size: 10px;
+}
+
+
+.bottom span:after{
+    font-size: 10px
+}
+
+
+footer{
+    border: 1px solid black;
+    background-color:darkolivegreen;
+    color:white;
+    text-align:center;
+    font-size:9px;
+    padding:5px 0;
+
+}
